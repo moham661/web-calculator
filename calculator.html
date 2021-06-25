@@ -1,0 +1,43 @@
+<link link rel="stylesheet" href="stylesheet.css">
+
+<head>
+    <title>my calculator</title>
+</head>
+<center>
+<body>
+    <div class="calc">
+    <table>
+        <tr>
+    <form class="calculator" name="calc"></form>
+    <input id="value" type="text" name="text" >
+    <input class="operations"  type="button" value="Clear" onclick="empty()" ></input>
+    </tr>
+    <tr>
+    <td><input class="number" type="button" value="7" onclick="view('7')"></input> </td>
+   <td> <input class="number" type="button" value="8"onclick="view('8')"></input></td> 
+   <td> <input class="number" type="button" value="9" onclick="view('9')"></input></td>
+    <td><input class="operations" type="button" value="+" onclick="view('+')"></input></td> 
+</tr>
+<tr>
+   <td> <input class="number" type="button" value="4" onclick="view('4')"></input></td> 
+    <td><input class="number" type="button" value="5" onclick="view('5')"></input></td> 
+    <td><input class="number" type="button" value="6" onclick="view('6')"></input></td> 
+    <td><input class="operations" type="button" value="-" onclick="view('-')"></input></td>
+</tr> 
+<tr>
+    <td> <input class="number" type="button" value="1" onclick="view('1')"></input></td> 
+    <td><input class="number" type="button" value="2" onclick="view('2')"></input></td> 
+    <td><input class="number" type="button" value="3" onclick="view('3')"></input></td> 
+    <td><input class="operations" type="button" value="X" onclick="view('*')"></input></td>
+</tr>
+<tr>
+    <td> <input class="number" type="button" value="0" onclick="view('0')"></input></td> 
+    <td><input class="number" type="button" value="." onclick="view('.')"></input></td> 
+    <td> <input class="operations" type="button" value="=" onclick="result()"></input></td>
+    <td><input class="operations" type="button" value="/" onclick="view('/')"></input></td> 
+</tr>
+</table>
+</div>
+</body>
+</center>
+<script src="js.js"></script>

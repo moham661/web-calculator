@@ -1,0 +1,33 @@
+body{
+    background-image: url("calc.png");
+    text-align: center;
+}
+.calc{
+    margin: 200px;
+    position: relative;
+}
+.number{
+    height: 50px;
+    width:50px;
+    background-color:cornsilk;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.number:hover{
+    background-color: gray;
+}
+.operations{
+    height: 50px;
+    width:50px;
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.operations:hover{
+    background-color:cornsilk;
+}
+#value{
+    height: 50px;
+    width: 160px;
+}
